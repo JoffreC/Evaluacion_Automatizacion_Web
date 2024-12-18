@@ -1,6 +1,5 @@
 package com.nttdata.steps;
 
-import com.nttdata.page.LoginPage;
 import com.nttdata.page.LoginTiendaPage;
 import com.nttdata.page.TiendaPage;
 import org.openqa.selenium.WebDriver;

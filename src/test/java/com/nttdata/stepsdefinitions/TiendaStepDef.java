@@ -42,8 +42,8 @@ public class TiendaStepDef {
         screenShot();
     }
 
-    @And("agrego {string} unidades del primer producto al carrito")
-    public void agregoUnidadesDelPrimerProductoAlCarrito(String unidades) {
+    @And("agrego 2 unidades del primer producto al carrito")
+    public void agregoUnidadesDelPrimerProductoAlCarrito() {
         compraTiendaSteps(driver).seleccionarProducto();
         compraTiendaSteps(driver).subirUnidadesProducto();
         compraTiendaSteps(driver).anadirCarrito();
